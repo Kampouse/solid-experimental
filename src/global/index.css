@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  .base-body {
+       @apply
+     bg-blue-bg
+      text-center
+      h-screen
+      w-screen
+}
+.nav-header {
+    @apply
+    bg-green-content
+    w-screen
+    flex 
+    justify-between
+    h-14
+    px-1
+    pt-1.5
+    lg:pt-3
+    md:pt-3
+}
+.main-card {
+    @apply
+     bg-orange-menu
+    h-screen/1
+    w-screen/2-5
+    rounded
+}
+.app-body {
+    @apply
+    h-max
+    mt-32
+    flex
+    justify-center
+    items-center
+}
